@@ -6,6 +6,7 @@
   
 3. 버킷에 파일 복사하기
   $ aws s3 cp c:\test\test.txt s3://tony-bucket   (aws s3 cp 명령어) - Copy
+  $ aws s3 sync . s3://tony-bucket   (aws s3 cp 명령어) - Copy
   
 4. 버킷에 파일 이동하기
   $ aws s3 mv c:\test\test1.rxr s3://tony-bucket  (aws s3 mv 명령어) - Move
